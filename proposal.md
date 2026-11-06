@@ -1,13 +1,13 @@
 # Project Proposal
 
 ## 1. Project Identification
-- **Project Title:**
-- **Course:**
-- **Term:**
-- **Student Name(s):**
-- **Primary Contact:**
-- **Proposed Start Date:**
-- **Proposed End Date:**
+- **Project Title: Working Bot Title**
+- **Course: Process Automation and Shell Scripting CPT-273 **
+- **Term: Fall 2026**
+- **Student Name(s): Austin Bousquet, William Dudley, Sebastion**
+- **Primary Contact: Austin Bousquet**
+- **Proposed Start Date: 11-09-2026**
+- **Proposed End Date: 12-06-2026**
 
 ---
 
