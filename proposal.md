@@ -4,7 +4,7 @@
 - **Project Title: Working Bot Title**
 - **Course: Process Automation and Shell Scripting CPT-273 **
 - **Term: Fall 2026**
-- **Student Name(s): Austin Bousquet, William Dudley, Sebastion**
+- **Student Name(s): Austin Bousquet, William Dudley, Sebastian Calzada
 - **Primary Contact: Austin Bousquet**
 - **Proposed Start Date: 11-09-2026**
 - **Proposed End Date: 12-06-2026**
