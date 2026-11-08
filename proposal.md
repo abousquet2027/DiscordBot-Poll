@@ -156,7 +156,7 @@ Communication plan: Discord, meeting once a week.
 Workload distribution:
 Austin Bousquet - Discord integration, general coding, bug troubleshooting
 Sebastion Calzada - General coding, bug troubleshooting
-William Dudley - SQL integration, bug troubleshooting
+William Dudley - SQL integration, general coding, bug troubleshooting
 
 - Team roles
 - Communication plan
