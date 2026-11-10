@@ -30,13 +30,6 @@ Clearly describe the problem, need, or opportunity this project addresses.
 This is a good opportunity to work as a team to create a finished piece of software others can use. This would allow
 others to create polls and see the results of what others think.
 
-Answer:
-- What problem exists?
-- Who is affected?
-- Why does this problem matter?
-
-Limit to 1–2 focused paragraphs.
-
 ---
 
 ## 4. Proposed Solution Overview
@@ -44,11 +37,6 @@ Provide a high-level description of your proposed solution.
 
 We intend to design and build a working poll bot to be used in Discord. This would be prompted via the user with a 
 slash command and allow the user to input a question and poll parameters e.g.; red or green as a favorite color. Also a command for other users to see results of polls via message id. This bot will have error outputs if the user goes outside the parameters. Exclusions: This poll will not show how someone voted just the results via a count. Will not show a visual just text.
-
-Include:
-- What you intend to build, deploy, or configure
-- Core features or capabilities
-- Explicit exclusions (what the project will *not* include)
 
 ---
 
@@ -58,8 +46,8 @@ List the technologies you expect to use.  Please note that this solution MUST li
 - **Operating System(s): Any OS that can run Discord as this is a bot for Discord**
 - **Programming Language(s): Python**
 - **Frameworks / Libraries: discord.py, mathlib, os, dict **
-- **Databases / Storage: Possibly SQLite**
-- **Infrastructure (VMs, containers, etc.): The script will run on a VM. **
+- **Databases / Storage: SQLite**
+- **Infrastructure (VMs, containers, etc.): The script will run on a Container. **
 - **Tools (Git, CI, monitoring, APIs, etc.): GIT, VSCODE**
 
 ---
@@ -73,14 +61,6 @@ Relevant coursework: Python programming, virtualization, scripting experience in
 Prior projects: The midterm from this class
 
 
-Include:
-- Skills you already have
-- Skills you need to learn
-- Relevant coursework completed
-- Prior projects or experience
-
-Be honest—this section helps scope the project appropriately.
-
 ---
 
 ## 7. Project Scope & Deliverables
@@ -90,10 +70,6 @@ MVP: A working poll bot that allows a user to input a poll question with options
 Outputs: The bot script, welcome message with instructions on how to use the bot
 Stretch goal: Results graph from poll if time permits
 
-Include:
-- Minimum viable deliverable (MVP)
-- Required outputs (application, scripts, documentation, etc.)
-- Optional stretch goals (if time permits)
 
 ---
 
@@ -105,11 +81,6 @@ Phase 2: Core implementation by 11-22-2026
 Phase 3: Testing & Refinement by 11-29-2026
 Phase 4: Documentation & Presentation by 11-06-2026
 
-Example:
-- Phase 1: Research & Design
-- Phase 2: Core Implementation
-- Phase 3: Testing & Refinement
-- Phase 4: Documentation & Presentation
 
 Dates do not need to be exact, but planning is required.
 
@@ -120,11 +91,6 @@ Identify potential challenges.
 
 Challenges include: Time constraints, discord integration, content exclusion, e.g.;no politics or profanity
 
-Include:
-- Technical risks
-- Time constraints
-- External dependencies (APIs, credentials, access)
-- Mitigation strategies
 
 ---
 
@@ -133,23 +99,10 @@ Address any relevant concerns, such as:
 
 Token security held in OS level variable. Ethical consideration no profanity or politics.
 
-- Authentication and authorization
-- Data sensitivity
-- Network exposure
-- Logging, monitoring, or automation impact
-- Ethical considerations
-
-A brief assessment of all of these is required, even if it is "N/A".
-
 ---
 
 ## 11. Team Structure (If Applicable)
 If working in a group, describe:
-
-Team roles:
-Austin Bousquet - 
-Sebastian Calzada - 
-William Dudley - 
 
 Communication plan: Discord, meeting once a week.
 
@@ -158,38 +111,24 @@ Austin Bousquet - Discord integration, general coding, bug troubleshooting
 Sebastion Calzada - General coding, bug troubleshooting
 William Dudley - SQL integration, general coding, bug troubleshooting
 
-- Team roles
-- Communication plan
-- Conflict resolution approach
-- Workload distribution
-
 ---
 
 ## 12. Documentation & Knowledge Transfer Plan
 Explain how this project will be documented.  Please note that this should include documentation in the UVDesk knowledgebase at the very least.  Programming projects should include readme.md files. 
 
-User guide for when they launch the poll. 
+**Please include**
 
-Include:
-- README or user documentation
-- Deployment or maintenance guides
-- How another student or administrator could continue the project
+**README.md - Install instructions, running instructions, future enhancements, anything else we should know when taking over the project!**
 
 ---
 
 ## 13. Faculty/cpt.internal Resources Requested
 List any required resources:
 
-VM access
+VM access **Please Dockerize this (i.e. create a docker image and include the Dockerfile in your code repository!) I will be running this in docker along with our other containers!**
+
 Discord bot URL token for the script to integrate with Discord
 
-- VM access
-- Network access
-- Credentials or APIs
-- Special permissions
-- Hardware (if applicable)
-
-Please be sure to consider any future tickets you may need to submit to complete this work as those will need to be generated and assigned to the appropriate groups as soon as feasibly possible once the project kicks off to ensure timely delivery.  I will step in to help where required but you will likely be working with students in other classes so please be cognizant of their time!
 
 ---
 
