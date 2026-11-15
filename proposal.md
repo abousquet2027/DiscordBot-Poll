@@ -145,4 +145,4 @@ Student 2: William Dudley_______________ Date: 11/08/2026_____
 Student 3:  Sebastian Calzada___________ Date: 11/08/2026_____
 Student 4:  ____________________________ Date: _______________
 
-Instructor: ____________________________ Date: _______________
+Instructor: __________Brett Bisesti_________ Date: ___11/15/2026___________
