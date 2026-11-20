@@ -8,6 +8,7 @@
 # Dependencies
 import discord
 import os
+from better_profanity import profanity
 
 # discord token read from .env file
 token = os.environ["discord_token"]
