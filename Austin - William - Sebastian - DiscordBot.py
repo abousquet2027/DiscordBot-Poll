@@ -1,3 +1,27 @@
+# Austin Bousquet, William Dudley, Sebastian Calzada
+# CPT 273 Process Automation and Scripting
+# FINAL Polly the Polling Discord Bot
+#
+# Feel free to change the title LOL
+
+
+# Dependencies
+import discord
+import os
+
+# discord token read from .env file
+token = os.environ["discord_token"]
+
+
+
+
+
+
+
+
+
+
+
 # This is the python placeholder file for the script for the bot.
 
 ###########****** Beta 0.1.1******########### (Base code) CHANGE ME  
@@ -65,6 +89,5 @@ print("Total Votes:")
 for n in range(len(polls)):
     pollcnt = voters.count(polls[n])
     print(polls[n], "-", pollcnt)
-        
 
 

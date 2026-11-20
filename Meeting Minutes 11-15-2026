@@ -11,19 +11,28 @@ Previous meeting was setup of the project and proposal.md file.
 
 Reports
 
-Professor approved the discord bot proposal and setup school CPT Discord channels for our use for this project. Austin has moved the chat notes from the previous channel to the new channel for reference
-only.
+Professor approved the discord bot proposal and setup school CPT Discord channels for our use for this project. Austin has moved the chat notes from the previous channel to the new channel for reference only.
+
+Division of future work:
+Austin: Research discord bot scripts and discord.py
+Austin: setup discord token code for test server
+Austin: setup docker compose file, docker file, and .env file
+William: Research discord bot scripts and discord.py
+William: Readme/Userguide
+William: Research word filter
+Sebastian: Research discord bot scripts and discord.py
+Sebastian: Research word filter, using RE module
+Sebastian: Variable code for poll question, poll options, amount of options
 
 Unfinished business
 
-
+none at this time
 
 
 New Business
 
-Per the Professors request we will need to "containerize" our bot to run in Docker. I propose Austin Bousquet to take the lead on this as he has experience with Docker and containerized items within
-it.
+Per the Professors request we will need to "containerize" our bot to run in Docker. I propose Austin Bousquet to take the lead on this as he has experience with Docker and containerized items within it.
 
 Adjournment
 
-Ended meeting at .
+Ended meeting at 3:38pm.
