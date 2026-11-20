@@ -41,8 +41,8 @@ poll = input("What is the Poll Topic: ")
 
 limit = int(input("How many options do you want to ask: "))
 
-if limit < 1:
-    print("You must ask at least one option.")
+if limit < 2:
+    print("You must ask at least two options.")
     limit = int(input("How many options do you want to ask: "))
 
 elif limit > 10:
