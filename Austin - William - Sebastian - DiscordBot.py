@@ -99,7 +99,7 @@ while time.time() - timer < 30: #calculates the time and sets to 30s
  print("")
  
  if votes >= 0 and votes < len(polls):
-     print(f"You selected: {polls[votes]}") #pulls the variable from the list
+     print(f"You selected: {polls[votes]}") #pulls the variable from the list## This can be removed later its just to verify
  
      if votes >= 0 and votes < len(polls):
             voters.append(polls[votes])
