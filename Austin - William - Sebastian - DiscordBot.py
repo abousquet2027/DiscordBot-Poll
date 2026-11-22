@@ -38,10 +38,11 @@ print("")
 print("Welcome to the Poll!")
 
 ## Try catch/Switch concept. To manage exception errors, 
-# loop wont be cancel until coniditon has been met
+# loop wont be canceled until coniditon has been met
 while True:
   try:
     poll_t = input("What is the Poll Topic: ")
+    
     if not poll_t.isalpha():
       raise ValueError
     
@@ -52,25 +53,26 @@ while True:
 
   except ValueError:
     print("You cannot enter Numbers or Profanity to the poll")
+    print("")
 
 ## ################################################### ## 
 ## WE NEED TO MNAGE EXCEPTIONS HERE, TO MANY VERIABLES ##
 ## ################################################### ##
 ## .isdigit() bugs the code
 #########################################################
-## Im OUT OF OPTIONS | Per S.C |
 
 
 # Will ask the users for how many options with conditions
 limit = int(input("How many options do you want to ask: "))
 
-if limit < 1:
- print("You must ask at least one option.")
+if limit < 2:
+ print("You must ask at least two options.")
  limit = int(input("How many options do you want to ask: "))
 
 elif limit > 10:
  print("You can only ask a maximum of 10 options.")
  limit = int(input("How many options do you want to ask: "))
+ 
   
 # Will ask the user for all the options and display the variable number option
 for i in range(limit):
@@ -102,12 +104,11 @@ while time.time() - timer < 30: #calculates the time and sets to 30s
  print("")
  
  if votes >= 0 and votes < len(polls):
-     print(f"You selected: {polls[votes]}") #pulls the variable from the list## This can be removed later its just to verify
+     print(f"You selected: {polls[votes]}") #pulls the variable from the list ## This can be removed later its just to verify it works
  
-     if votes >= 0 and votes < len(polls):
-            voters.append(polls[votes])
-            print("Vote added")
-            print("")
+     voters.append(polls[votes])
+     print("Vote added")
+     print("")
  
  else:
     print("Invalid Option")
@@ -120,7 +121,7 @@ while time.time() - timer < 30: #calculates the time and sets to 30s
 ############### Otherwise program will crash #
 ######################################################
 ## We need to make the timer working continuesly, 
-## it will update the countdown after another INPUT
+## it will update the countdown only after another INPUT is made
 #
 ## if time.time() - timer > 30:
 ##   print("time up")
@@ -134,4 +135,3 @@ print("Total Votes:")
 for n in range(len(polls)):
  poll_cnt = voters.count(polls[n])
  print(polls[n], "-", poll_cnt)
- 
