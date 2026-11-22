@@ -79,7 +79,7 @@ Provide a rough timeline broken into phases.
 Phase 1: Research & Design of bot Sunday 11-15-2026
 Phase 2: Core implementation by 11-22-2026
 Phase 3: Testing & Refinement by 11-29-2026
-Phase 4: Documentation & Presentation by 11-06-2026
+Phase 4: Documentation & Presentation by 12-06-2026
 
 
 Dates do not need to be exact, but planning is required.
