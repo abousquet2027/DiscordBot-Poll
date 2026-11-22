@@ -44,11 +44,14 @@ while True:
     poll_t = input("What is the Poll Topic: ")
     if not poll_t.isalpha():
       raise ValueError
+    
+    if profanity.contains_profanity(poll_t):
+      raise ValueError
 
     break
 
   except ValueError:
-    print("Please only enter words")
+    print("You cannot enter Numbers or Profanity to the poll")
 
 ## ################################################### ## 
 ## WE NEED TO MNAGE EXCEPTIONS HERE, TO MANY VERIABLES ##
