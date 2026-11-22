@@ -23,10 +23,7 @@ token = os.environ["discord_token"]
 
 
 
-
-# This is the python placeholder file for the script for the bot.
-
-###########** Beta 0.1.2 **########### BUGGY AS HELL, not really. READ ALL "##" Notes
+###########** Beta 0.1.3 **###########
 
 
 #Storage were polls are saved temp
@@ -43,7 +40,7 @@ while True:
   try:
     poll_t = input("What is the Poll Topic: ")
     
-    if not poll_t.isalpha():
+    if poll_t == "":
       raise ValueError
     
     if profanity.contains_profanity(poll_t):
@@ -52,7 +49,7 @@ while True:
     break
 
   except ValueError:
-    print("You cannot enter Numbers or Profanity to the poll")
+    print("You cannot enter an empty Title or Profanity to the poll")
     print("")
 
 ## ################################################### ## 
@@ -70,7 +67,7 @@ if limit < 2:
  limit = int(input("How many options do you want to ask: "))
 
 elif limit > 10:
- print("You can only ask a maximum of 10 options.")
+ print("You can only ask a maximum of 10 options.")#another bug
  limit = int(input("How many options do you want to ask: "))
  
   
@@ -85,6 +82,8 @@ def Opt_list():
   for j in range(len(polls)):
     print(j, "-", polls[j])
 
+    
+
 
 # Show the list
 print("")
@@ -97,6 +96,9 @@ print("")
 print("Timer for 30 seconds")
 timer = time.time()
 
+#tc = int(input("Time?"))
+
+## Fix countdown timer
 # User will vote
 while time.time() - timer < 30: #calculates the time and sets to 30s
  
