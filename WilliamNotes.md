@@ -6,3 +6,6 @@ Profanity filtering
 - module =  better-profanity
 filters swears and variations of swears like when people use @ instead of a or $ instead of S etc.
 Can replace letters of the swears with *** or just block the words if we prefer, can talk on sunday                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+Discord.py notes:
+potentially use from discord import app_commands
+discord.ui.Button variable can configure a button, so the voting stays anonymous
