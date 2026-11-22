@@ -1,27 +1,31 @@
 Meeting Minutes
 
-Call to order at 3:00pm.
+Call to order at 2:54pm.
 
 A meeting of Austin, Willian, and Sebastian was held at Remote via Discord on 11/08/2026. Attendees included Austin Bousquet, William Dudley, Sebastian Calzada. 
 Members not in attendance included none.
 
 Approval of minutes
 
-
+Previous meeting approved by team.
 
 Reports
 
-
+Sebastian showed his code and explained functions.
+William showed progress on userguide and spring boarded ideas for errors and changes.
+Austin showed code for docker integration
 
 Unfinished business
 
-
+Working on error exceptions.
 
 
 New Business
 
-
+Sebastian, William, and Austin will work on error exceptions, and live timer.
+Austin will work on docker.py and docker bot integration into test server
+William will work on error exceptions, custom profanity whitelist options, research integration handling gibberish errors. William will also brainstorm having a live timer.
 
 Adjournment
 
-Ended meeting at .
+Ended meeting at 4:40pm.
