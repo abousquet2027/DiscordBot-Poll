@@ -1,12 +1,9 @@
-# Austin Bousquet
-# starts the service
 services:
-  # the service name will be called polly-discord-bot, this is true for logs as well
-  polly-discord-bot:
-    # builds the container in the current directory
+  test.bot:
+  # builds the dockerfile in the directory
     build: .
-    # loads the environment from the .env file this will include the discord token
+    # loads the environment variables (the token id)
     env_file:
-      - .env
-    # sets the container to restart automatically unless manually stopped
+     - .env
+    # image will restart automatically unless manually started
     restart: unless-stopped

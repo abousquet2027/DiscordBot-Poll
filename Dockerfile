@@ -1,30 +1,19 @@
-# Austin Bousquet
-# starting python
-FROM python:3
+# starts a python image
+FROM python:3.12-slim
 
-# Austin Bousquet
-# sets two enviornment variables
-# first variable stops python from creating cache files
-# the second variable will print python logs from the container immediately
+# Forces the python logs to be in Docker
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
-# Austin Bousquet
-    # sets the working directory
+# sets the working directory for the image
 WORKDIR /app
 
-# Austin Bousquet
-# copies the requirments.txt file to install dependencies for the container    
+# copy dependencies from requirements.txt and installs them
 COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-# Austin Bousquet
-# installs the dependencies from the requirments.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Austin Bousquet
-# copies the rest of the files but will ignore .env and dockerignore files into the container
+# copies the remainder of the bots files
 COPY . .
 
-# Austin Bousquet
-# Runs python and the script
-CMD ["python", "Austin - William - Sebastian - DiscordBot.py"]
+# starts the bot
+CMD ["python", "test.bot.py"]
