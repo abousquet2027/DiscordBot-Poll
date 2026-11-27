@@ -1,2 +1,5 @@
 discord
 better_profanity
+os 
+time
+re
